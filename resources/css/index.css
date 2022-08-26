@@ -45,7 +45,7 @@ li {
 }
 
 .banner {
-    background-image: url("/Users/ryansturrock/Desktop/codecademy/projects/tea cozy/resources/images/img-mission-background.jpeg");
+    background-image: url("../images/img-mission-background.jpeg");
     background-position: center;
     height: 700px;
     display: flex;
@@ -105,7 +105,7 @@ li {
 /* Location Section */
 
 .locations {
-    background-image: url("/Users/ryansturrock/Desktop/codecademy/projects/tea cozy/resources/images/img-locations-background.jpeg");
+    background-image: url("../images/img-locations-background.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     margin-left: 40px;
