@@ -1,0 +1,170 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: medium;
+}
+
+/* Header Section */
+
+header {
+    height: 68px;
+    border-bottom: 1px solid seashell;
+    position: sticky;
+}
+
+#logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+    font-size: medium;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+/* Mission Section */
+
+.mission {
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    background-image: url("/Users/ryansturrock/Desktop/codecademy/projects/tea cozy/resources/images/img-mission-background.jpeg");
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mission {
+    background-color: black;
+   
+}
+
+#mission h2, h4 {
+    margin: 10px;
+}
+
+/* Featured Tea Section */
+
+#featuredTea {
+    margin-top: 60px;
+}
+
+/* main flex container. infline-flex with a width will allow the container to be centered  */
+.featuredTea {
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.featuredTea img {
+    height: 200px;
+    width: 300px;
+}
+
+.col1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.col1 > div {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.col2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+/* Location Section */
+
+.locations {
+    background-image: url("/Users/ryansturrock/Desktop/codecademy/projects/tea cozy/resources/images/img-locations-background.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    height: 500px;
+    
+}
+
+.locations > h2 {
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+#test {
+    display: flex;
+    justify-content: space-around;
+}
+
+.locationsContainer {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 15px;
+    /* min-width: 500px;
+    max-width: 1000px; */
+}
+
+.addressCards {
+    width: 300px;
+    background-color: black;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.addressCards > p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* End Section */
+
+.endSection {
+    height: 200px;
+}
+
+/* Footer Section */
+
+footer h5 {
+    text-align: left;
+    margin-left: 20px;
+}
+/* General Classes */
+
+.container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
